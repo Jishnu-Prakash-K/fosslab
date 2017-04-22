@@ -1,0 +1,4 @@
+#! /bin/bash
+head $1 >file.txt
+tail $2 >>file.txt
+cat file.txt

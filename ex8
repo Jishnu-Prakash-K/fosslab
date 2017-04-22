@@ -1,0 +1,19 @@
+#! /bin/bash
+echo -e "1.Addition \n2.Subtraction \n3.Multiplication \n4.Division"
+echo -n "Enter your option :"
+read a
+echo "Enter two numbers : "
+read x
+read y
+case $a in
+1) echo "Sum : " `expr $x + $y`
+;;
+2) echo "Difference : " `expr $x - $y`
+;;
+3) echo "Product : " `expr $x \* $y`
+;;
+4) echo "Quotient : " `expr $x / $y`
+;;
+*) echo "Option not found"
+esac
+

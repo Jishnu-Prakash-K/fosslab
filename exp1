@@ -1,0 +1,7 @@
+#! /bin/bash
+echo "Enter your name "
+read fname
+read sname
+echo "$fname $sname "
+echo $PWD
+echo `date`

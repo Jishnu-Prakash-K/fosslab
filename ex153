@@ -1,0 +1,4 @@
+#! /bin/bash
+x=`expr $1 + $2 + $3 `
+x=`expr $x / 3`
+echo $x

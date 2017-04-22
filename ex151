@@ -1,0 +1,12 @@
+#! /bin/bash
+echo -n "Enter Name : "
+read name
+echo -n "Enter address : "
+read add
+echo -n "Enter Email : "
+read email
+echo "Name : $name "
+echo "Address : $add "
+echo "Email : $email "
+
+

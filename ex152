@@ -1,0 +1,8 @@
+#! /bin/bash
+echo -n "Enter string : "
+read x
+echo -n "Enter string : "
+read y
+z=$x$y
+echo $z |tr [:lower:] [:upper:]
+

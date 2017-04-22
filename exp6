@@ -1,0 +1,12 @@
+#! /bin/bash
+echo -n "Enter the string : "
+read a
+if [ -d "$a" ]
+then
+	echo "Directory"
+else if [ -f "$a" ]
+     then
+	echo "File"
+     fi
+fi
+

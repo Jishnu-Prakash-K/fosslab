@@ -1,0 +1,23 @@
+#! /bin/bash
+read fname
+read lname
+echo "$fname $lname"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

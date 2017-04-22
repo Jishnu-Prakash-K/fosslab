@@ -1,0 +1,2 @@
+#! /bin/bash
+test $1 = $2 && echo "Same" || echo "Not Same"

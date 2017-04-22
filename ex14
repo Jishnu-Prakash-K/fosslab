@@ -1,0 +1,11 @@
+#! /bin/bash
+echo -n "Enter File1 : "
+read x
+echo -n "Enter File2 : "
+read y
+if [ -f "$y" ] ; then
+ cat $x >> $y 
+else
+ cat $x > $y
+fi
+
