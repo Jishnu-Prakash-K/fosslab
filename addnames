@@ -1,0 +1,19 @@
+#! /bin/bash
+
+if [ "$#" == 2 ] 
+then
+if [ -f $1 ]
+then
+c=$(grep -c "$2" "$1")
+if [ $c != 0 ]
+then
+ echo "Name exist"
+else
+ echo "$2" >> "$1"
+fi
+else
+ echo "No such file exist"
+fi
+else
+ echo "Please enter two arguments "		
+fi
